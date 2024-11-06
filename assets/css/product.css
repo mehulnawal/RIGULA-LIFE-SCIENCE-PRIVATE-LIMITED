@@ -1,0 +1,24 @@
+/* common css srt */
+:root {
+    --bs-secondary: #4dc2cc;
+    --bs-secondary-rgb: 77, 194, 204;
+}
+
+/* common css end */
+
+.card-main {
+    height: 100%;
+
+    .products-img {
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .products-img {
+        width: 100%;
+        height: 100%;
+    }
+
+}

@@ -10,6 +10,10 @@
     --bs-info-rgb: 61, 67, 73;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", serif !important;
 }
@@ -67,24 +71,6 @@ main {
             }
         }
     }
-}
-
-@media (max-width:768px) {
-
-    .banner {
-        background-size: contain;
-        background-position: top left;
-    }
-
-}
-
-@media (max-width:576px) {
-
-    .banner {
-        background-size: 100% auto;
-        background-position: left;
-    }
-
 }
 
 /* main end */
